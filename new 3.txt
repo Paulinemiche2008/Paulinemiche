@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Family</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lavender;
+            color: purple;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .family-photo {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px gray;
+        }
+        .gallery img {
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            border-radius: 10px;
+            border: 2px solid purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Family Website</h1>
+        <p>Meet our wonderful family and cherish our memories together.</p>
+        <img src="family-photo.jpg" alt="Family Photo" class="family-photo">
+        
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="pastries.html">Pastries</a>
+        <a href="cakes.html">Cakes</a>
+        <a href="beverages.html">Beverages</a>
+    </nav>
+	
+        <h2>Family Gallery</h2>
+        <div class="gallery">
+            <img src="C:\Users\victo\OneDrive\New folder\ortiaga.jpg" alt="photo 1">
+            <img src="C:\Users\victo\OneDrive\New folder\ortiaga.jpg" alt="Photo 2">
+            <img src="C:\Users\victo\OneDrive\New folder\ortiaga.jpg" alt="Photo 3">
+            
+            
+			
+			
+	
+        </div>
+    </div>
+</body>
+</html>
